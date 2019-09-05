@@ -24,9 +24,9 @@ class Appointment
     patient.appointments << self
   end
   
-  def doctor
-    @doctor 
-  end 
+  # def doctor
+  #   @doctor 
+  # end 
   
   def doctor=(doctor)
     @doctor = doctor 
